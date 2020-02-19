@@ -1,0 +1,23 @@
+\section*{2016}
+\vspace{-.5cm}
+\hrulefill \smallskip\\
+\ques{1}{d}{10}
+Consider the probability distribution $p(x;\theta)$, $x$ = 2,3,4,5 and $\theta$ = 0.25,0.50,0.75. \\ A sample size of size 1 is drawn from the population and it is found to be 3. Obtain the maximum likelihood estimate of $\theta$.
+\begin{center}
+    \begin{tabular}{|*{5}{c|}}
+        \hline
+        x & 2 & 3 & 4 & 5  \\\hline
+        $p(x; \theta = 0.25)$ & 0.25 & 0.25 & 0.25 & 0.25 \\\hline 
+        $p(x; \theta = 0.50)$ & 0.30 & 0.40 & 0.15 & 0.15 \\\hline 
+        $p(x; \theta = 0.75)$ & 0.10 & 0.30 & 0.45 & 0.15 \\\hline 
+    \end{tabular}
+\end{center}
+\myline
+\ques{3}{a}{20} Given a random sample $(X_1,X_2,\ldots,X_n)$ from $N(\mu, \sigma^2)$ with all parameters unknown. Write down the likelihood function $L(\mu, \sigma^2)$. Show that for all $(\mu, \sigma^2)$ 
+\[ L\left(\dfrac{1}{n}\sum_{i=1}^{n}X_i, \dfrac{1}{n}\sum_{i=1}^{n}(X_i - \bar{X})^2\right) \geq L(\mu, \sigma^2)\] 
+and comment . Now find for any $\epsilon > 0$
+\[P \left[ \left| \dfrac{1}{n}\sum_{i=1}^{n}X_i - \mu \right| > \epsilon \right] \] and hence establish that $\dfrac{1}{n}\sum_{i=1}^{n}X_i$ is a consistent estimator of $\mu$.
+\myline
+\ques{3}{c}{15} The life of an electric bulb, $X$ (in hours), follows the exponential distribution with mean life $\dfrac{1}{\theta}$, where $\theta(>0)$ is an unknown parameter. The prior distribution of $\theta$ has a gamma distribution $(\alpha,\lambda)$ with mean 0.8 and standard deviation 2. The average life of a random sample of size 5 bulbs is 3.8 hours. Calculate the Bayes estimate of $\theta$ using the squared error loss function.
+\myline
+\ques{4}{b}{15} Let $X \sim Poisson(\theta)$. Using Rao-Blackwell theorem, obtain the minimum variance unbiased estimator for $\Psi(\theta) = \dfrac{e^{-\theta}\theta^k}{k!}$, where $k$ is an integer.
